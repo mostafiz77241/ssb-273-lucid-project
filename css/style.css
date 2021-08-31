@@ -1,0 +1,508 @@
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* css header part */
+header{
+    background-image: url(../images/banner-.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    font-size: 17px;
+    position: relative;
+    padding: 0;
+    margin-left: 20px;
+    
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 0%;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+    
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 0%;
+    background:#008ed6;
+    transition: .4s all ease-in-out;
+   
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fffefe;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 45%;
+
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 45%;
+}
+.banner_content{
+    
+}
+.banner_content h4{
+margin: 0;
+color: #008ed6;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 15px;
+}
+
+.banner_content h1{
+margin: 0;
+color: #ffffff;
+margin-bottom: 15px;
+}
+.banner_content p{
+margin: 0;
+color: #999999;
+margin-bottom: 30px;
+font-size: 16px;
+}
+.btn_download{
+color: #ffffff;
+background: #087dc6;
+font-size: 13px;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding: 0;
+padding: 10px 25px;
+border-radius: 5px;
+transition: .4s all ease-in-out;
+margin-right: 15px;
+}
+.btn_vew{
+color: #fff;
+text-transform: uppercase;
+border: 1px solid #999999;
+transition: .4s all ease-in-out;
+padding: 0;
+padding: 10px 25px;
+font-size: 13px;
+letter-spacing: 1px;
+
+
+}
+.btn_download:hover{
+    box-shadow: 5px 5px 0px 0px #ffffff;
+    color: #fff;
+    background: transparent;
+    background:#008ed6 ;
+    border: 1px solid #087dc6;
+}
+.btn_vew:hover{
+    color: #fff;
+    background:#008ed6 ;
+    border: 1px solid #087dc6;
+  
+}
+.phone{
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    left: 55%;
+} 
+.hg{
+    min-height: 90vh;
+} 
+
+/*css feaature_section part */
+.feaature_section{
+    background-color: #ffffff;
+    height: 90vh;
+
+}
+.feaature_section h4{
+    margin: 0;
+    text-transform: uppercase;
+    color: #008ed6;
+    letter-spacing: 1px;
+    margin-bottom: 15px;}
+.feaature_section h1{
+    
+    margin: 0;
+    margin-bottom:25px ;
+    
+    color: #1a1a1a;
+    position: relative;
+}
+.feaature_section h1::before{
+    content: "";
+    position: absolute;
+    left: 46%;
+    bottom: -30px;
+    background: #008ed6;
+    height: 2px;
+    width: 0px;
+    transition: .4s all ease-in-out;
+
+
+}
+.feaature_section h1::after{
+    content: "";
+    position: absolute;
+    right: 46%;
+    bottom: -30px;
+    background:#008ed6;
+    height: 2px;
+    width: 0px;
+    transition: .4s all ease-in-out;
+
+
+
+}
+.feaature_section:hover h1::before{
+    width: 40px;
+
+}
+.feaature_section:hover h1::after{
+   width: 40px;
+}
+/* css icon list part */
+.list_icon{
+    transition: .4s all ease-in-out;
+    margin-bottom: 15px;
+    padding: 0;
+    padding: 15px;
+}
+.list_icon ul{
+    list-style: none;
+
+}
+.list_icon ul li{
+ 
+}
+.list_icon ul li i{
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #c5c3c3;
+    padding: 0;
+    padding: 25px 0;
+    color: #008ed6;
+    border-radius: 50%;
+   
+
+
+}
+.list_icon:hover{
+    box-shadow: 0px 0px 4px 6px #1a1a1a;
+    border-radius: 10px;
+   
+
+}
+.span_one{
+    display: block;
+    background: #dad7d7;
+    /* border: 2px solid #999999; */
+    height: 1px;
+    width: 100%;
+    margin-top: 80px;
+}
+/* css iphone part */
+.details_part{
+    
+  
+
+}
+.details_part h3{margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #008ed6;
+}
+.details_part h1{
+
+margin: 0;
+
+color: #1a1a1a;
+
+margin-bottom: 18px;
+
+position: relative;
+
+font-weight: 600;
+}
+.details_part h1::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: -14px;
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    transition: .4s all ease-in-out;
+}
+.details_part h1::after{
+    content: "";
+    position: absolute;
+    right: 85%;
+    bottom: -14px;
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    transition: .4s all ease-in-out;
+}
+.details_part:hover h1::before{
+    width: 40px;
+}
+.details_part:hover h1::after{
+    width: 40px;
+}
+.details_part p{
+
+margin: 0;
+
+font-size: 16px;
+
+color: #999999;
+
+margin-top: 25px;
+}
+.details_part ul{
+margin: 0;
+padding: 0;
+list-style: none;
+
+
+
+}
+.details_part ul li{    
+    font-size: 17px;
+    margin: 8px 0;
+}
+.details_part ul li i{
+    font-size: 17px;
+    color: #008ed6;
+    margin-right: 10px;
+       
+}
+/* css icon tow part */
+.Super_part{
+    background-color: #f2f2f2;
+
+}
+.Super_part h2{
+
+margin: 0;
+
+color: #008ed6;
+
+text-transform: uppercase;
+font-size: 18px;
+letter-spacing: 2px;
+
+margin-bottom: 15px;
+}
+.Super_part h1{
+
+margin: 0;
+
+color: #1a1a1a;
+
+font-weight: 500;
+
+font-size: 41px;
+
+margin-bottom: 18px;
+}
+.Super_part p{
+
+margin: 0;
+
+color: #999999;
+
+font-size: 16px;
+
+margin-top: 25px;
+}
+.iphone_part{
+
+}
+
+.Super_part h1{
+    position: relative;
+}
+
+
+.Super_part h1::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: -14px;
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    transition: .4s all ease-in-out;
+}
+.Super_part h1::after{
+    content: "";
+    position: absolute;
+    right: 85%;
+    bottom: -14px;
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    transition: .4s all ease-in-out;
+}
+.Super_part:hover h1::before{
+    width: 40px;
+}
+.Super_part:hover h1::after{
+    width: 40px;
+}
+/* css content banner part */
+.content_banner{
+    background-image: url(../images/banner-one-.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    position: relative;
+}
+.content_banner h3{
+
+margin: 0;
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+letter-spacing: 2px;
+
+font-size: 14px;
+
+margin-top: 80px;
+}
+.content_banner h1{
+    
+margin: 0;
+    
+color: #ffffff;
+    
+margin-top: 15px;
+}
+.text_one{
+    
+}
+.text_one h5{
+
+margin: 0;
+
+color: #fff;
+
+font-size: 16px;
+
+margin: 20px 85px;
+}
+.text_one h2{
+    margin: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.text_one h4{
+ margin: 0;
+ color: #fff;
+ 
+}
+.content_banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#2d2b2d ;
+    opacity: .3;
+}
+.content_banner_content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    
+}
+/* css footer part */
+footer{
+    background-color: #1a1a1a;
+    
+}
+.footer_part h1{
+
+margin: 0;
+
+color: #ffffff;
+
+margin: 25px 15px;
+
+font-size: 25px;
+
+}
+span{
+    margin: 0;
+    color: #fff;
+
+}
+.btn_vews{
+ color: #fff;
+text-transform: uppercase;
+border: 1px solid #999999;
+transition: .4s all ease-in-out;
+padding: 0;
+padding: 10px 25px;
+font-size: 13px;
+letter-spacing: 1px;
+margin: 0;
+margin: 15px 20px;
+
+}
+.btn_vews:hover{
+    color: #fff;
+    background:#008ed6 ;
+    border: 1px solid #087dc6;
+  
+}
+.btn_now{
+    color: #ffffff;
+background: #087dc6;
+font-size: 13px;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding: 0;
+padding: 10px 25px;
+border-radius: 5px;
+transition: .4s all ease-in-out;
+margin-right: 15px;
+    
+}
+.btn_now:hover{
+    box-shadow: 5px 5px 0px 0px #ffffff;
+    color: #fff;
+    background: transparent;
+    background:#008ed6 ;
+    border: 1px solid #087dc6;
+}
